@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --default-green: #1db954;
+
+}
+
+.header{
+    width: 100%;
+    background-color: #440099;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li a:hover{
+    color: #ff8e01;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: system-ui,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+/* Show case */
+
+#showcase{
+    height: 86vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: url('../Navbar/background.png') center center/cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2{
+    font-size: 5em;
+}
+
+#showcase .showcase-container p{
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+
+    border-radius: 30px;
+    letter-spacing: 1px;
+    box-shadow: 1px  5px #0000000c;
+    transition:  all 100ms ease;
+
+}
+
+.btn-primary:hover{
+    background: #0cc44c;
+    cursor: pointer;
+}
+
+.btn-primary:active{
+    padding: 20px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    margin: auto;
+    font-weight: bold;
+    color: #f3f3f3;
+    font-size: 0.75rem;
+    background-color: #000000;
+}
+
+.footer-info .footer-info-items{
+    display: flex;
+    list-style: none;
+   
+}
+
+.footer-info .footer-info-items .footer-info-item{
+    margin: 0 10px;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover{
+    color: #9a68f7;
+    cursor: pointer;
+}
+
+
+
