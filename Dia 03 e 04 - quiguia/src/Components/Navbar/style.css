@@ -42,7 +42,7 @@ nav{
     display: flex;
 }
 
-.nav-list li{
+.nav-list {
     letter-spacing: 3px;
     margin-left: 32px;
 }
@@ -82,7 +82,7 @@ nav{
     color: white;
     text-transform: uppercase;
     padding: 15px 60px;
-
+    border: none;
     border-radius: 30px;
     letter-spacing: 1px;
     box-shadow: 1px  5px #0000000c;

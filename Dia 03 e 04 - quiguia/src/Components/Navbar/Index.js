@@ -1,7 +1,8 @@
 import Corpo01 from '../Corpo01';
 import Footer from '../Footer';
 import Header from '../Header';
-import '../Navbar/style.css'
+import '../Navbar/style.css';
+
 
 function Index() {
 
@@ -15,7 +16,7 @@ function Index() {
 
        
 
-    </div>
+         </div>
 
 
         

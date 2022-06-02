@@ -1,0 +1,43 @@
+*{
+
+}
+
+.dropdown{
+  height:1.1rem;
+
+
+}
+
+.dropdown-menu{
+  width: 10rem;
+  text-align: center;
+  color: white;
+ 
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu:hover{
+  color: white;
+  border-radius: 18px;
+  background-color: #460397;
+}
+
+.dropdown-list{
+  list-style-type: none;
+  padding: 2px;
+}
+
+
+
+.dropdown-list>li{
+  margin: 15px;
+  padding: 10px;
+  
+  border: 1px solid transparent;
+}
+
+.dropdown-list>li:hover{
+  border-radius: 10px;
+  border: 1px solid;
+}
