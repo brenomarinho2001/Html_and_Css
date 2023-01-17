@@ -10,5 +10,7 @@ This app features all the latest tools and practices in web development!
 ⚛️ CSS
 
 Getting started:
-1.Clone this repo using git clone git@github.com:CarlosLevir/tindev.git
+1.Clone this repo using git
+
 2.open the index.html
+
